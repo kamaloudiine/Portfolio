@@ -1,0 +1,138 @@
+/**  * {
+	box-sizing: border-box;
+	list-style: circle;
+	font-family: Verdana, Tahoma, sans-serif;
+}
+
+html {
+	font-size: 16px;
+}
+
+header {
+	display: flex;
+	margin-bottom: 1em;
+	position: fixed;
+}
+
+body {
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-right: 1em;
+	height: 4em;
+	font-size: 1.2em;
+}
+ 
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+header nav a {
+	padding-left: 1em;
+}
+
+
+
+
+
+
+**/
+* {
+	list-style: circle;
+	box-sizing: border-box;
+	font-family: Verdana, Tahoma, sans-serif;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-right: 1em;
+	width: 100%;
+	height: 4em;
+	font-size: 1.2em;
+    background-color: rgb(110, 187, 255);
+    font-weight: 800;
+	position: fixed;
+}
+
+#info {
+	font-size: 1.5em;
+	width: 100%;
+	height: 20em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: burlywood;
+	margin-bottom: 5em;
+}
+
+header nav a {
+	margin-left: 0.6em;
+    margin-right: 0.6em;
+
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+header nav a:hover:not(.logo) {
+    cursor: pointer;
+    border-bottom: 3px solid whitesmoke;
+}
+
+body {
+    margin: 0;
+	display: flex;
+	flex-direction: column;
+    background-color: rgb(166, 210, 249);
+    color: whitesmoke;
+
+}
+
+main {
+    margin-top: 10em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    padding: 1.4em;
+    margin: 1em;
+    font-weight: 800;
+    font-size: 1em;
+    background-color:rgb(110, 187, 255);
+    color: white;
+    border-radius: 0.5em;
+    border: none;
+    transition: box-shadow 0.3s;
+}
+button:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 8px white;
+}
+
+
+footer{
+	background-color: rgb(110, 187, 255);;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 2em 0 0 0;
+	padding: 0 1em;
+}
+
+#contact {
+	vertical-align: center;
+}
