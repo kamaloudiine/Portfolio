@@ -5,6 +5,9 @@
 	<title>Kamal-Oudine Raliou</title>
 	<link rel="stylesheet" href="index.css" />
 	<meta charset="UTF-8" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500&display=swap" rel="stylesheet">
 	<meta name="viewport" content="width:device-width, initial-scale=1.0">
 </head>
 
@@ -17,34 +20,82 @@
 		<nav>
 
 			<div>
-				<a href="">Mes projets</a>
-				<a href>À propos</a>
+				<a href="#myprojects-section">Projects</a>
+				<a href="#about-section">About</a>
 				<a href="">Contact</a>
 			</div>		
 		</nav>
 	</header>
 	
 	<main>
-		<section id="profile">
-			<div id="info">
+		<!--FIRST SECTION-->
+		<section id="profile-section">
+			<div class="container">
 				<div class="description-info">
-					<p>Salut, Moi c'est</p>
-					<h1>Kamal</h1>
-					<p>Je suis lycéen.<br/> 
-					<p>Passioné d'Informatique</p>
-					J'aime: 
+					<p style="font-size: 0.9em">Hi, I'm</p>
+					<p style="padding-top: 0.3em; font-size: 2rem; font-weight: 600;">Kamal</p>
+					<p style="font-size: 1.3rem">High-school student<br/> 
+					   Tech passionate
+					</p>
+
+					<div class="profile-buttons">
+						<button class="projects-button">
+						<a href="#myprojects-section">Projects</a>
+						</button>
+						<button class="about-button">
+						<a href="#about-section">About</a>
+						</button>
+					</div>					
+				</div>
+
+					<!--J'aime: 
 					<br/>
 					Passer du temps avec mes proches.
 					<br/>
 					Apprendre de nouvelles choses.
 					<br/>
 					Avoir un impact positif dans la vie des gens.
-				</p>
+					</p>-->
+
+				<div class="profile-pic">
+					<img src="assets/mypic.png" alt="profile-pic" class="profile-pic" >
 				</div>
-				
-				<img src="assets/mypic.png" alt="mypicture" > 
 			</div>			
-		</section>		
+		</section>	
+
+	<!--SECOND SECTION-->
+		<h1 class="title" id="about-section">About Me</h1>
+
+		<section class="about-section">
+			<p>Hello, my name is Kamal. <br>
+			I'm a Nigerien living in Senegal since 2017. 
+			I'm in my last year as a high-school student. <br/>
+			I'm passionate about Leadership, Computer Science and Programming.<br/> I dream of having a positive impact on my continent and the world. </p>
+		</section>	
+
+	<!--THIRD SECTION-->
+		<h1 class="title" id="myprojects-section">My projects</h1>
+		
+		<section class="myprojects-section" >
+			<div class="myprojects container">
+				<div class="card project-1">
+					<h2>My blog</h2>
+					<p>It's a place where I want to share stuff I found interesting and useful</p>
+					<button><a href="./blog.html" target="_blank">View</a></button>
+				</div>
+				<div class="card project-2">
+					<h2>Imajighan</h2>
+					<p>A website to learn more about Touaregs and their culture</p>
+					<button><a href="">View</a></button>
+				</div>
+				<div class="card project-3">
+					<h2>App Inventor 2</h2>
+					<p>I've created a few apps with this tool and now look forward to creating some with pure code xD</p>
+					<button><a href="">View</a></button>
+				</div>
+			</div>
+		</section>
+
 		
 	</main>
 
